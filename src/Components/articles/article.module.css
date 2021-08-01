@@ -1,0 +1,26 @@
+.img{
+    width: 100%;
+    height: auto;
+}
+.thumbnail{
+    background-color: #ffffff;
+    max-width: 290px;
+}
+
+.author{
+    font-size: 14px;
+}
+.title{
+    font-weight: 400;
+    color: hsl(233, 26%, 24%);
+    font-size: 23px;
+}
+.title:hover{
+    color: hsl(136, 65%, 30%);
+}
+@media (min-width: 767.98px) {
+    .thumbnail{
+        background-color: #ffffff;
+        min-width: 290px;
+    }
+}

@@ -1,0 +1,35 @@
+.outside_container_class{
+    background-color: hsl(0, 0%, 98%);
+    position: relative;
+    overflow: hidden;
+}
+.container{
+    padding: 0px 0px 50px 0px;
+}
+.mobile_display{
+    position: absolute;
+    z-index: 10;
+    top: -120px;
+    width: 100%;
+    height: auto;
+    right: 0;
+}
+@media (min-width: 767.98px) {
+    .mobile_display{
+    top: -50px;
+    width: 50%;
+    right: -70px;
+    }
+  .container{
+        padding: 100px 0px 100px 0px;
+    }
+ }
+
+ @media (min-width: 1200px) {
+    .mobile_display{
+        top: -120px;
+        width: 45%;
+        right: -90px;
+        }
+ }
+ 

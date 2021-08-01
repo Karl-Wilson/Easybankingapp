@@ -1,0 +1,20 @@
+.outsideClass{
+    background-color: hsl(233, 26%, 24%);
+}
+.container{
+    padding: 25px 0px 25px 0px;
+}
+a.footnav{
+    color: hsl(0, 0%, 100%);
+}
+a.footnav:hover{
+    color: hsl(136, 65%, 51%);
+}
+.hover:hover{
+    color: hsl(136, 65%, 51%);
+}
+@media (min-width: 768px) {
+    .container{
+        padding: 50px 0px 50px 0px;
+    }
+}

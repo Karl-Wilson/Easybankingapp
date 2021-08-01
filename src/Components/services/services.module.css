@@ -1,0 +1,20 @@
+.icons{
+    width: 20%;
+    height: auto;
+}
+.title{
+    font-weight: 400;
+    color: hsl(233, 26%, 24%);
+    font-size: 23px;
+}
+
+.sectiontitle{
+    font-weight: 400;
+    color: hsl(233, 26%, 24%);
+    font-size: 29px;
+}
+@media (min-width: 767.98px) {
+.thumbnail{
+    max-width: 290px;
+}
+}

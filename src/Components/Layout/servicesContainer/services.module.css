@@ -1,0 +1,11 @@
+.container{
+    padding: 50px 0px 50px 0px;
+}
+.outer_class{
+    background-color: hsl(220, 16%, 96%);
+}
+@media (min-width: 767.98px) {
+  .container{
+        padding: 100px 0px 100px 0px;
+    }
+ }

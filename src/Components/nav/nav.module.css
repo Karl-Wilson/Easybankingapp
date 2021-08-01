@@ -1,0 +1,35 @@
+a.linkTag{
+    font-family: "PublicSans-Regular";
+    text-decoration: none;
+}
+a.linkTag:hover{
+    cursor: pointer;
+}
+
+a.nav{
+    color:  hsl(233, 8%, 62%); 
+    height: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    box-sizing: border-box;
+}
+a.nav:hover{  
+    border-bottom-style: solid;
+    border-bottom-width: 5px;
+    border-image: linear-gradient(to right, hsl(136, 65%, 51%), hsl(192, 70%, 51%)) 1;
+    color: #000000;
+}
+.navlinkbar{
+    display: none;
+} 
+
+
+@media (min-width: 1200px) {
+   .navlinkbar{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    } 
+    
+}

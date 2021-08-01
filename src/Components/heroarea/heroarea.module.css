@@ -1,0 +1,41 @@
+.bg_display{
+    width: 600px;
+    height: auto;
+    position: relative;
+    top:-280px;
+    left:-100px;
+    z-index:1;
+}
+.innerContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.innerContainer h3{
+    font-weight: 400;
+    color: hsl(233, 26%, 24%);
+    font-size: 47px;
+}
+
+@media (min-width: 767.98px) {
+    .bg_display{
+        width: 900px;
+        top:-280px;
+        left:0;
+    }
+    .innerContainer{
+        align-items: flex-start;
+    }
+    .messageWrapper, .appWrapper{
+        height: 300px;
+    }
+}
+@media (min-width: 1200px) {
+    .innerContainer{
+        padding-right: 8rem;
+    }
+    .messageWrapper, .appWrapper{
+        height: 300px;
+    }
+}
