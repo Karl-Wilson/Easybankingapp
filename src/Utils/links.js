@@ -14,7 +14,8 @@ let links = {
         instagram: "/instagram",
         pinterest: "/pinterest",
         twitter: "/twitter",
-        youtube: "/youtube"
+        youtube: "/youtube",
+        amazon: "/amazon"
     }
 }
 export default links;
