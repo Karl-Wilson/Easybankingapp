@@ -51,7 +51,7 @@ Users should be able to:
 
 - Solution URL:
 
-- Live Site URL:
+- Live Site URL: https://easybankingapp.vercel.app/
 
 
 ### Built with
