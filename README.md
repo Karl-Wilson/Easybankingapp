@@ -1,8 +1,10 @@
+# Frontend Mentor - Easybank landing page solution
+
+This is a solution to the [Easybank landing page challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/easybank-landing-page-WaUhkoDN). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
+
 ## Table of contents
 
   
-
--  [Overview](#overview)
 
 -  [The challenge](#the-challenge)
 
@@ -18,14 +20,6 @@
 
   
   
-
-### Overview
-
-This is a Frontend Mentor(https://www.frontendmentor.io) coding challenge to help improve front end coding skills by building realistic project.
-
-  
-  
-
 ### The challenge
 
 
@@ -73,9 +67,9 @@ Users should be able to:
   
 ### Useful resources
 
-- [resource 1] https://www.w3schools.com - For quick reference
+- [W3school](https://www.w3schools.com) - For quick reference
 
-- [resource 2] https://reactjs.org/docs/ - For quick reference
+- [React documentation](https://reactjs.org/docs/) - For quick reference
   
   
 ## Author
@@ -83,6 +77,6 @@ Users should be able to:
   
 - Name - Okose Chidelu Karl
 
-- Instagram - @developerkarl(https://www.instagram.com/developerkarl)
+- Instagram - [@developerkarl](https://www.instagram.com/developerkarl)
 
  
