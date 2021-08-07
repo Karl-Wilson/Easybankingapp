@@ -1,14 +1,30 @@
-import React from 'react';
+import React, {useState, useEffect} from 'react';
 import style from './navbar.module.css';
 import Logo from '../../logo/logo';
 import Nav from '../../nav/nav';
 import { GeneralButton } from '../../button/buttons';
 import menu from '../../../Assets/Images/icon-hamburger.svg';
 import Container from '../page_container/pageContainer'
-function clickhandler(){
-    document.getElementById('nav').classList.toggle(style.dropdown)
-}
-const navbar = props => {
+
+
+const Navbar = props => {
+    const [dimensions, setDimensions] = useState({ 
+        height: window.innerHeight,
+        width: window.innerWidth
+      })
+    function clickhandler(){
+         document.getElementById('nav').classList.toggle(style.dropdown)
+    }
+    function resizehandler(){
+        if(window.innerWidth > 1190){
+             document.getElementById('nav').classList.remove(style.dropdown)
+        }
+    }
+      useEffect(() => {
+        window.addEventListener('resize', resizehandler)
+        return () => window.removeEventListener('resize', resizehandler)
+      })
+
     return(
         <Container outsideClass={style.outsideClass}>
             <nav className={style.navbar}>
@@ -21,4 +37,4 @@ const navbar = props => {
     )
 }
 
-export default navbar;
+export default Navbar;
