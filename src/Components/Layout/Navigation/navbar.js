@@ -1,4 +1,4 @@
-import React, {useState, useEffect} from 'react';
+import React, {useEffect} from 'react';
 import style from './navbar.module.css';
 import Logo from '../../logo/logo';
 import Nav from '../../nav/nav';
@@ -8,10 +8,6 @@ import Container from '../page_container/pageContainer'
 
 
 const Navbar = props => {
-    const [dimensions, setDimensions] = useState({ 
-        height: window.innerHeight,
-        width: window.innerWidth
-      })
     function clickhandler(){
          document.getElementById('nav').classList.toggle(style.dropdown)
     }
