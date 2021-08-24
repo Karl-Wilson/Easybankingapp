@@ -10,7 +10,7 @@ const Navlinkbar = ({className, ...props}) => {
                     Links.pagelinks.map((page, index) => {
                         return(
 
-                          (index<5)?<Navlink className={["me-3", style.nav].join(" ")}  url={page.url} key={page.id}>{page.name}</Navlink> : ''
+                          (index<5)?<Navlink onClick={props.click} className={["me-3", style.nav].join(" ")}  url={page.url} key={page.id}>{page.name}</Navlink> : ''
                         )
                     })
                 }

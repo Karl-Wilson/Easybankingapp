@@ -13,7 +13,7 @@ const Navbar = props => {
         width: window.innerWidth
       })
     function clickhandler(){
-         document.getElementById('nav').classList.toggle(style.dropdown)
+         if(window.innerWidth <= 1190){document.getElementById('nav').classList.toggle(style.dropdown)}
     }
     function resizehandler(){
         if(window.innerWidth > 1190){
@@ -29,7 +29,7 @@ const Navbar = props => {
         <Container outsideClass={style.outsideClass}>
             <nav className={style.navbar}>
                 <Logo/>
-                <Nav id="nav"/>
+                <Nav id="nav" click={clickhandler}/>
                 <GeneralButton className={style.navbutton}>Request Invite</GeneralButton>
                 <img src={menu} onClick={clickhandler} className={style.menu} alt="menu button"/>
             </nav>
